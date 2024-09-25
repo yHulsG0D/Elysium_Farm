@@ -1,0 +1,27 @@
+name: Elysium_Farm
+version: '${project.version}'
+main: dev.huls.elysium_farm.Main
+author: 'yHulsG0D_'
+api-version: '1.20'
+depend:
+  - PlayerPoints
+commands:
+  farmland:
+    description: 'Give a farmland block'
+    permission: 'elysium.farmland'
+    aliases:
+      - farm
+      - arada
+  sementes:
+    description: 'Give a seeds'
+    permission: 'elysium.sementes'
+    aliases:
+      - seed
+      - semente
+  vender:
+    description: 'Sell the farms'
+    permission: 'elysium.vender'
+    aliases:
+      - sell
+      - venda
+      - sells
